@@ -2,6 +2,10 @@
     background: color(bg, 1);
 }
 
+.hidden {
+    opacity: 0.1s;
+}
+
 .body-wrap {
     background: color(bg, 1);
     overflow: hidden;

@@ -1586,6 +1586,10 @@ label {
   background: #FFFFFF;
 }
 
+.hidden {
+  opacity: 0.1s;
+}
+
 .body-wrap {
   background: #FFFFFF;
   overflow: hidden;
