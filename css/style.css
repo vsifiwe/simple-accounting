@@ -485,7 +485,7 @@ h6,
   color: #606483;
 }
 
-.text-light h1, .text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
+.text-light h2, .text-light h3, .text-light h4, .text-light h5, .text-light h6,
 .text-light .h1, .text-light .h2, .text-light .h3, .text-light .h4, .text-light .h5, .text-light .h6 {
   color: #FFF !important;
 }
@@ -1432,7 +1432,7 @@ label {
 
 .device-mockup {
   position: relative;
-  width: 500px;
+  width: 800px;
   height: auto;
   margin: 0 auto;
   z-index: 1;
@@ -1465,7 +1465,7 @@ label {
 }
 
 .feature-extended {
-  padding: 24px 0;
+  padding: 24px 24px;
 }
 
 .feature-extended-image {
@@ -1511,15 +1511,19 @@ label {
   .features-extended-wrap:not(:last-of-type) {
     margin-bottom: 64px;
   }
+  .section-heading {
+    color: black;
+  }
   .feature-extended {
     display: flex;
     flex-wrap: nowrap;
     align-items: stretch;
     justify-content: flex-end;
     padding: 64px 0;
+    margin: 48px 0;
   }
   .feature-extended .feature-extended-image {
-    width: 440px;
+    width: 600px;
     margin-right: 96px;
     margin-bottom: 0;
   }
@@ -1529,7 +1533,7 @@ label {
   }
   .feature-extended .feature-extended-image img.device-mockup,
   .feature-extended .feature-extended-image svg.device-mockup {
-    max-width: 400px;
+    max-width: 500px;
   }
   .feature-extended:nth-child(even) {
     justify-content: flex-start;
@@ -1565,6 +1569,21 @@ label {
     width: 392px;
   }
 }
+.features {
+  display: flex;
+  flex-direction: row;
+  padding-top: 86px;
+  justify-content: space-between;
+}
+
+.feature-description {
+  text-align: justify;
+}
+
+.feature {
+  padding: 0 12px;
+}
+
 /*--------------------------------------------------------------
 # CTA
 --------------------------------------------------------------*/
