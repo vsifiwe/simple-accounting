@@ -1574,6 +1574,7 @@ label {
   flex-direction: row;
   padding-top: 86px;
   justify-content: space-between;
+  width: 900px !important;
 }
 
 .feature-description {
@@ -1581,7 +1582,7 @@ label {
 }
 
 .feature {
-  padding: 0 12px;
+  padding-right: 36px;
 }
 
 /*--------------------------------------------------------------
